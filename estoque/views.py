@@ -2,7 +2,7 @@
 from __future__ import unicode_literals
 
 from django.shortcuts import render, get_object_or_404, redirect
-from forms import *
+from .forms import *
 
 # Create your views here.
 # Create your views here.
