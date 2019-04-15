@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %} 
+{% block content %}
+<div class="container">
+	<div class="jumbotron shadow" style="background-color: #f9f9f9 !important;">
+		<h2><i class="fa fa-check"></i> Venda de produto </h2>
+		<p>Venda do produto {{produto.nome}} realizada com sucesso!</p>
+		<a href="/produto/{{pk}}/" class="btn btn-primary">Produto</a>
+	</div>
+</div>
+
+
+{%endblock%}
+
